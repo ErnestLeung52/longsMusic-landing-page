@@ -3,25 +3,25 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'Exceeded My Expectations',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      "Instructor Long's online guitar lessons exceeded my expectations. His comprehensive teaching style and personalized approach helped me progress quickly and confidently on the guitar.",
     user: {
       id: 1,
-      name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
+      name: 'Takjing Leung',
+      professional: 'Student',
       photo: '1.jpg',
     },
   },
   {
     id: 2,
-    title: 'Best Quality Online Course!',
+    title: 'Exceptional Online Guitar Lessons',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      "Long's online guitar lessons were nothing short of exceptional. His expertise, clear instruction, and personalized guidance made learning the guitar an enjoyable and rewarding experience.",
     user: {
       id: 1,
-      name: 'Riski',
-      professional: 'Software Engineer',
+      name: 'Jonny',
+      professional: 'Video Editor',
       photo: '2.jpg',
     },
   },
@@ -29,36 +29,36 @@ export const data: Array<Testimonial> = [
     id: 3,
     title: 'Very complete class',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      "Instructor Long's teaching style made learning the art of DJing a thrilling journey. From beatmatching to live mixing techniques, this course provided invaluable skills for aspiring DJs.",
     user: {
       id: 1,
-      name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
+      name: 'Patricia Chan',
+      professional: 'Stage Desginer',
       photo: '3.jpg',
     },
   },
   {
     id: 4,
-    title: 'Great Quality!',
+    title: 'Perfect Guitar Tab',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Guitar tab arrangements are simply outstanding, capturing the essence of every song with precision and detail',
     user: {
       id: 1,
       name: 'Diana Jordan',
-      professional: 'SEO Expert',
+      professional: 'Guitarist',
       photo: '4.jpg',
     },
   },
-  {
-    id: 5,
-    title: 'Detailed learning materials',
-    content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
-    user: {
-      id: 1,
-      name: 'Ashley Graham',
-      professional: 'Back-End Developer',
-      photo: '5.jpg',
-    },
-  },
+  // {
+  //   id: 5,
+  //   title: 'Detailed learning materials',
+  //   content:
+  //     'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+  //   user: {
+  //     id: 1,
+  //     name: 'Ashley Graham',
+  //     professional: 'Back-End Developer',
+  //     photo: '5.jpg',
+  //   },
+  // },
 ]

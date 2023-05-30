@@ -19,15 +19,15 @@ interface ExpItemProps {
 const exps: Array<Exp> = [
   {
     label: 'Students',
-    value: '10K+',
+    value: '200+',
   },
   {
     label: 'Quality Course',
-    value: '20+',
+    value: '30+',
   },
   {
-    label: 'Experience Mentors',
-    value: '10+',
+    label: 'Custom Tabs',
+    value: '50+',
   },
 ]
 
@@ -138,7 +138,7 @@ const HomeHero: FC = () => {
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "Let's take an online course to improve your skills in a different way, you can set your own study time according to your learning speed. So you san study comfortable and absorb tge material easily."
+                    'Welcome to our virtual music academy, where you can explore your passion for guitar, piano, and DJing. I am here to guide you on an exciting musical journey, unlocking your creativity and helping you master the art of playing and mixing.'
                   }
                 </Typography>
               </Box>
@@ -193,16 +193,14 @@ const HomeHero: FC = () => {
                 <Typography
                   component="h6"
                   sx={{ color: 'secondary.main', fontSize: '1.1rem', fontWeight: 700, mb: 0.5 }}
-                >
-                  Certificate
-                </Typography>
+                ></Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  There are certificates for all courses.
+                  Highly Rated Instruments Lessons
                 </Typography>
               </Box>
             </Box>
             <Box sx={{ lineHeight: 0 }}>
-              <Image src="/images/home-hero.jpg" width={775} height={787} alt="Hero img" />
+              <Image src="/images/home-hero.jpg" width={775} height={600} alt="Hero img" />
             </Box>
           </Grid>
         </Grid>

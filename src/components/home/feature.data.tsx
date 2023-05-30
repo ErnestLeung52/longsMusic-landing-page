@@ -13,22 +13,22 @@ interface Data {
 export const data: Data[] = [
   {
     title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'Learn guitar, DJ, and access tabs and sheets conveniently from anywhere',
     icon: <ArtTrackIcon />,
   },
   {
     title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'Save money compared to traditional lessons and physical sheet music.',
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Flexible Time',
+    description: 'Learn at your own pace and schedule, fitting lessons into your busy life',
     icon: <LocalLibraryIcon />,
   },
   {
     title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'Get personalized guidance and feedback from experienced mentors',
     icon: <ContactSupportIcon />,
   },
 ]

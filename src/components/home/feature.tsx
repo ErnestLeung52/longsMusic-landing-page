@@ -42,45 +42,45 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/home-feature.png" width={650} height={678} quality={97} alt="Feature img" />
+              <Image src="/images/home-feature.jpg" width={650} height={678} quality={97} alt="Feature img" />
               <Box
                 sx={{
                   position: 'absolute',
-                  top: -36,
-                  right: { xs: 0, md: -36 },
+                  bottom: -45,
+                  left: { xs: 0, md: -24 },
                   boxShadow: 2,
                   borderRadius: 1,
                   px: 2.2,
-                  py: 1.4,
+                  py: 2,
                   zIndex: 1,
                   backgroundColor: 'background.paper',
-                  width: 190,
+                  textAlign: 'center',
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
+                  Instructor Long
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                    Guitar
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={95} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                    DJing
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={80} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                    Tab/Sheet Arrangement
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={70} order={3} />
                 </Box>
               </Box>
 
-              <Box
+              {/* <Box
                 sx={{
                   position: 'absolute',
                   bottom: -12,
@@ -137,7 +137,7 @@ const HomeFeature: FC = () => {
                     />
                   </Box>
                 </Box>
-              </Box>
+              </Box> */}
             </Box>
           </Grid>
           <Grid item xs={12} md={7}>
@@ -182,8 +182,8 @@ const HomeFeature: FC = () => {
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+              Unlock your musical potential with Long Music Studio - Where learning guitar, DJing, and finding the
+              perfect tabs and sheets has never been easier.
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>

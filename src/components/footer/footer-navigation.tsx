@@ -8,31 +8,31 @@ import { FooterSectionTitle } from '@/components/footer'
 
 const courseMenu: Array<Navigation> = [
   {
-    label: 'UI/UX Design',
+    label: 'Intro to Guitar Lesson',
     path: '#',
   },
   {
-    label: 'Mobile Development',
+    label: 'Mixing and Mastering Acoustic Guitar',
     path: '#',
   },
   {
-    label: 'Machine Learning',
+    label: 'Intro to DJ Lesson',
     path: '#',
   },
   {
-    label: 'Web Development',
+    label: 'Tab & Sheet Arrangement',
     path: '#',
   },
 ]
 
 const pageMenu = headerNavigations
 
-const companyMenu: Array<Navigation> = [
-  { label: 'Contact Us', path: '#' },
-  { label: 'Privacy & Policy', path: '#' },
-  { label: 'Term & Condition', path: '#' },
-  { label: 'FAQ', path: '#' },
-]
+// const companyMenu: Array<Navigation> = [
+//   { label: 'Contact Us', path: '#' },
+//   { label: 'Privacy & Policy', path: '#' },
+//   { label: 'Term & Condition', path: '#' },
+//   { label: 'FAQ', path: '#' },
+// ]
 
 interface NavigationItemProps {
   label: string
@@ -58,8 +58,8 @@ const NavigationItem: FC<NavigationItemProps> = ({ label, path }) => {
 
 const FooterNavigation: FC = () => {
   return (
-    <Grid container spacing={2}>
-      <Grid item xs={12} md={4}>
+    <Grid container spacing={6}>
+      <Grid item xs={6} md={6}>
         <FooterSectionTitle title="Course" />
         {courseMenu.map(({ label, path }, index) => (
           <NavigationItem key={index + path} label={label} path={/* path */ '#'} />
@@ -71,12 +71,12 @@ const FooterNavigation: FC = () => {
           <NavigationItem key={index + path} label={label} path={path} />
         ))}
       </Grid>
-      <Grid item xs={12} md={4}>
+      {/* <Grid item xs={12} md={4}>
         <FooterSectionTitle title="About" />
         {companyMenu.map(({ label, path }, index) => (
           <NavigationItem key={index + path} label={label} path={path} />
         ))}
-      </Grid>
+      </Grid> */}
     </Grid>
   )
 }

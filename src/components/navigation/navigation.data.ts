@@ -13,8 +13,8 @@ export const navigations: Navigation[] = [
     label: 'Testimonial',
     path: 'testimonial', // '/testimonial',
   },
-  {
-    label: 'Mentor',
-    path: 'mentors', // '/mentors',
-  },
+  // {
+  //   label: 'Mentor',
+  //   path: 'mentors', // '/mentors',
+  // },
 ]

@@ -47,6 +47,10 @@ const ExpItem: FC<ExpItemProps> = ({ item }) => {
   )
 }
 
+const showVideo = (): void => {
+  window.open('https://www.instagram.com/p/CgiteBVrJKS/', '_blank')
+}
+
 const HomeHero: FC = () => {
   return (
     <Box id="hero" sx={{ backgroundColor: 'background.paper', position: 'relative', pt: 4, pb: { xs: 8, md: 10 } }}>
@@ -149,7 +153,13 @@ const HomeHero: FC = () => {
                   </StyledButton>
                 </ScrollLink>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
+                  <StyledButton
+                    color="primary"
+                    size="large"
+                    variant="outlined"
+                    startIcon={<PlayArrowIcon />}
+                    onClick={showVideo}
+                  >
                     Watch Video
                   </StyledButton>
                 </ScrollLink>
